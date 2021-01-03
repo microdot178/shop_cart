@@ -40,7 +40,7 @@ let li_list_items_in_cart = []
 
 data.forEach((i) => {	//проходимся по data, создаем массив кнопок с id, именем и ценой товара
 //	console.log(i.name)
-	li_list_items.push(`<p class='item_to_cart'><img class='image' src=${i.img}/> ${i.name}, price: ${i.price} 
+	li_list_items.push(`<p class='item_to_cart'><img class='image' src=${i.img}> ${i.name}, price: ${i.price} 
         <button class="add_item_button" id=${i.id}> add to cart </button> </p>`)
 });
 
